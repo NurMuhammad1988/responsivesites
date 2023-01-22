@@ -1,0 +1,68 @@
+    .menu{
+        width: 1000px;
+        width: auto;
+        height: 1500px;
+        background: yellowgreen;
+        display: flex;
+        margin: auto;
+        justify-content: space-between;
+        flex-wrap: wrap;    
+    }
+
+    .box{
+        width: 150px;   
+        height: 200px;
+        background: yellow;
+        border: 1px solid white;
+    }
+
+    @media (max-width: 800px)
+    {
+        .box{
+            background: black;
+            width: calc(100% / 6 );
+        }
+    }
+
+
+    @media (max-width: 555px)
+    {
+        .box{
+            background: pink;
+            width: calc(100% / 5 );
+        }
+    }
+
+
+
+    @media (max-width: 454px)
+    {
+        .box{
+            background: red;
+            width: calc(100% / 4 );
+        }
+    }
+
+
+
+    @media (max-width: 350px)
+    {
+        .box{
+            background: blue;
+            width: calc(100% / 3 );
+        }
+    }
+
+
+    @media (max-width: 349px)
+    {
+        .box{
+            width: 100%;
+            background: wheat;
+        }
+    }
+
+
+
+
+
